@@ -13,7 +13,7 @@ WORKING WITH SIMPLE TEST FILE
 
 log other attributes
 
-
+passing objects through rout - (un)marshaling - converting objects form one type to another - modyfing bodies of complex types in runtime
 production templates - BEANS
 xml - xpath
 TRANSACTIONS - JDBC
