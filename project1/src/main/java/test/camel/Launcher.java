@@ -1,14 +1,14 @@
 package test.camel;
 
 import org.apache.camel.CamelContext;
-import org.apache.camel.impl.DefaultCamelContext;
 import test.camel.routes.FileRB;
+import test.camel.util.CamelContextConfig;
 
 public class Launcher {
 
     public static void main(String[] args) {
-        CamelContext cc = new DefaultCamelContext();
         try {
+            CamelContext cc = CamelContextConfig.getCameContext();
             cc.addRoutes(new FileRB());
             cc.start();
             Thread.sleep(5000);

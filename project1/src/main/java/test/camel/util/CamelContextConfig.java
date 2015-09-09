@@ -8,9 +8,9 @@ import org.apache.camel.impl.DefaultCamelContext;
  */
 public enum CamelContextConfig { ;
 
-    private CamelContext cc = new DefaultCamelContext();
+    private static CamelContext cc = new DefaultCamelContext();
 
-    public CamelContext getCameContext() {
+    public static CamelContext getCameContext() {
         return cc;
     }
 

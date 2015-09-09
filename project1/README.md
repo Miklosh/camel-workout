@@ -6,6 +6,22 @@
 2) Add processor with logging (checkout what header are carrying with exchange)
 3) set new headers and add filter
 
+WORKING WITH SIMPLE TEST FILE
+- transfer file to another directory
+- change file name
+- change file content
+
+log other attributes
+
+
+production templates - BEANS
+xml - xpath
+TRANSACTIONS - JDBC
+JMS
+
+
+a) create filters
+
 n) add jms
 n+1) (integrate java and spring dsl think close about the better architecture using both dsl)
       retype all in spring dsl
