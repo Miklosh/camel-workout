@@ -9,3 +9,6 @@ ASSIGNMENT FOR 11.09.2015
  - bean dispatcher
  - XPath (?)
  - filtering according to attr in xml
+ - Product Template
+ - Error handling
+ - Camel Predicates
