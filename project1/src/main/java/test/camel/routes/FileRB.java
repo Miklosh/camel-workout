@@ -14,7 +14,7 @@ public class FileRB extends RouteBuilder {
 
     @Override
     public void configure() throws Exception {
-        from("file://resources/inbox?delete=true")
+        from("file://resources/project1/inbox?delete=true")
                 .process(new Processor() {
                     public void process(Exchange exchange) throws Exception {
                         Map<String, Object> map = exchange.getIn().getHeaders();
@@ -61,6 +61,6 @@ public class FileRB extends RouteBuilder {
                         System.out.println("[NEW BODY]: " + exchange.getIn().getBody());
                     }
                 })
-                .to("file://resources/outbox");
+                .to("file://resources/project1/outbox");
     }
 }

@@ -11,6 +11,11 @@ WORKING WITH SIMPLE TEST FILE
 - change file name
 - change file content
 
+ASSIGNMENT FOR 11.09.2015
+ - xml to csv transformer
+ - transformer with help with beans
+ - parralel execution
+
 log other attributes
 
 passing objects through rout - (un)marshaling - converting objects form one type to another - modyfing bodies of complex types in runtime
